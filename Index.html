@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Duality</title>
-    <description>Duality se encarga de personalizar y/o sublimar los productos que desees. Brindando así un servicio de personalización y diseño único para tus prendas, accesorios o ese toque único a tu emprendimiento. </description>
+    <meta name="description" content="Duality se encarga de personalizar y/o sublimar los productos que desees. Brindando así un servicio de personalización y diseño único para tus prendas, accesorios o ese toque único a tu emprendimiento. ">
 </head>
 <body>
     <header>
@@ -32,11 +32,36 @@
 
     <main>
         <h1>Duality</h1>
-        <p>Creamos, diseñamos y personalizamos productos a medida para gustos de cada cliente, ¿No ves lo que te gusta? No dudes en consultar</p>
+        <p class="subheader">Creamos, diseñamos y personalizamos productos a medida para gustos de cada cliente, ¿No ves lo que te gusta? No dudes en consultar</p>
         <img src="./Images/Taza Sublimada.png">
         <!-- No te olvides de añadir un hyperlink a consultar el cual te lleve al form dónde mandas tu propio pedido.-->
 
-    
+        <h1>¡Clientes satisfechos!</h1>
+        <div class="clientes">
+            <img src="./Images/Taza Sublimada.png" alt="Cliente 1 con su producto" class="cliente">
+            <p>La Ferreteria de Tachuela luciendo sus nuevas gorras sublimadas</p>
+            <img src="./Images/Taza Sublimada.png" alt="Cliente 2 con su producto" class="cliente">
+            <p> La hinchada de Adev ya ha dejado lista su bandera</p>
+            <img src="./Images/Taza Sublimada.png" alt="Cliente 3 con su producto" class="cliente">
+            <p>¿Tarjetas de presentación? ¡Cómo no se me ocurrió!</p>
+            <img src="./Images/Taza Sublimada.png" alt="Cliente 4 con su producto" class="cliente">
+            <p>Nada mejor que un buen caffecito <!--emoji de ojos shy --></p>
+        </div>
+    <h1>¿No encontrás lo que estás buscando?</h1>
+    <p>¡No dudes en contactarnos! Hacemos de tu imaginación una realidad <!--emoji guiñando ojo --></p>
+    <h2>Tu propio diseño</h2>
+    <form id="Contacto">
+        <label for="name">Nombre:</label> <br>
+        <input id="name" type="text" name="name" placeholder="Juan Pablo" required> <br>
+           
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="JuanPablo@gmail.com" required><br>
+
+        <label for="design_idea">Describi tu diseño:</label><br>
+        <textarea id="design_idea" name="design_idea" rows="4" cols="50" placeholder="Una bandera con el siguiente logo (Adjuntar logo con alta calidad) y la frase (Escribir frase con detalles como tipografía, tamaño, fuente, etc)."required></textarea><br>
+
+        <input type="submit" value="Submit">
+    </form>
     </main>
     <footer>
 
