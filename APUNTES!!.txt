@@ -1,0 +1,25 @@
+El sitio web tendría 5 elementos en su header:
+
+- Logo - Duality
+- Barra de busqueda
+- Iniciar sesión/Registrarse
+- Contacto
+- Carrito de compras
+- Zona (Villaguay, Entre Rios)
+
+
+MAIN
+Home + Barra de filtrado de elementos
+Elementos 
+
+¿No has encontrado lo que buscabas?
+¡Diseñamos lo que quieras!
+Contacta con nosotros
+
+FORM--->Email de contacto/Whatsapp.
+
+FOOTER
+Redes
+Email
+Zona
+Numero de telefono
