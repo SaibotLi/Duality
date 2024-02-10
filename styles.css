@@ -1,22 +1,38 @@
 /*HERE STARTS HEADER + MAIN--->PRODUCTS*/
-
 .header-main {
     background-color: #1F2937;
 }
 
-li {
-    display:flex; 
-    justify-content: space-around;
-    align-items: center;
-}
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    padding:10px;
+    }
 
-.logo {
-    justify-content: flex-start;
-    margin-right: 50vw;
-}
+    .navbar ul {
+        display:flex;
+        list-style-type: none;
+        margin:0;
+        padding:0;
+        width: 100%;
+    }
+
+    .navbar ul li {
+        margin-left:20px;
+    }
+
+    .navbar a {
+        text-decoration:none;
+        color: #E5E7EB;
+        font-size: 18px;
+    }
+
+    .logo {
+        margin-right:auto;
+    }
 
 .header {
-    font: 48px bolder;
+    font-size: 48px;
     font-weight:bolder;
     color: #F9FAF8;
 }
@@ -26,50 +42,43 @@ li {
     color: #E5E7EB;
 }
 
+/*HERE ENDS HEADER + MAIN--->PRODUCTS*/
+
+/*HERE STARTS MAIN---->TESTIMONIES*/
+
 .products {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-
-
-
-/*HERE ENDS HEADER + MAIN--->PRODUCTS*/
-
-/*HERE STARTS MAIN---->TESTIMONIES*/
-
-.clientes, .testimonios{
-    display:flex;
-    justify-content:center;
-   
-}
-
-.testimonios {
-    padding-left: 150px;
-}
-
-.cliente .testimonio {
-    justify-content: space-between;
-}
-
-.cliente {
-    margin-right: 5rem;
-    margin-left: 5rem;
-    align-items: center;
-    border: solid blue 5px;    
-}
-
-.testimonio {
-margin-right: 50px;
-margin-left: 50px;
-text-align: center;
-font-size: 20px;
-}
-
 .header2 {
     font-size: 36px;
     font-weight:bolder;
     color:#1F2937;
     text-align: center;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto; /* Center the container */
+    max-width: 100%; /* Ensure the container doesn't exceed the width of its parent */
+    padding: 0 10px; /* Add padding to the container to create space between images */
+ 
+}
+
+.image-container {
+    height:367.17px;
+    text-align: center;
+    margin: 10px; /* Adjust margin to create space between image containers */
+    flex: 0 1 calc(25% - 20px); /* Set the width of each image container to 25% of the container's width */
+}
+
+.image {
+    border: solid blue 5px;
+    width: 300px; /* Set a fixed width for the images */
+    height: auto; /* Let the height adjust proportionally based on the width */
+  
 }
 /*HERE ENDS MAIN---->TESTIMONIES*/
