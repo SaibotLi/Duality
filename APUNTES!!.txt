@@ -1,11 +1,11 @@
 El sitio web tendría 5 elementos en su header:
 
-- Logo - Duality
-- Barra de busqueda
-- Iniciar sesión/Registrarse
-- Contacto
-- Carrito de compras
-- Zona (Villaguay, Entre Rios)
+1 - Logo - Duality
+2 - Barra de busqueda
+3 - Iniciar sesión/Registrarse
+4 - Carrito de compras
+5 - Contacto
+6 - Zona (Villaguay, Entre Rios)
 
 
 MAIN

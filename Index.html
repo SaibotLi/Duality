@@ -5,8 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Duality</title>
     <meta name="description" content="Duality se encarga de personalizar y/o sublimar los productos que desees. Brindando así un servicio de personalización y diseño único para tus prendas, accesorios o ese toque único a tu emprendimiento. ">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+    <!--HERE STARTS NAVBAR-->
+    <div class="header-main">
     <header>
         <nav>
             <li>
@@ -30,23 +35,41 @@
         </nav>
     </header>
 
-    <main>
-        <h1>Duality</h1>
-        <p class="subheader">Creamos, diseñamos y personalizamos productos a medida para gustos de cada cliente, ¿No ves lo que te gusta? No dudes en consultar</p>
-        <img src="./Images/Taza Sublimada.png">
-        <!-- No te olvides de añadir un hyperlink a consultar el cual te lleve al form dónde mandas tu propio pedido.-->
+ <!--HERE ENDS NAVBAR-->
+ <!--HERE STARTS MAIN>PRODUCTS-->
 
-        <h1>¡Clientes satisfechos!</h1>
+    <main>
+        <div class="products">
+            <div class="products-text">
+                 <h1 class="header">Duality </h1>
+                  <p class="subheader">Creamos, diseñamos y personalizamos productos a medida para gustos de cada cliente, ¿No ves lo que te gusta? No dudes en consultar</p>
+                </div>
+            <div class="products-img">
+        <img src="./Images/Taza Sublimada.png">
+    </div>
+        <!-- No te olvides de añadir un hyperlink a consultar el cual te lleve al form dónde mandas tu propio pedido.-->
+    </div>
+    </div>
+ <!--HERE ENDS MAIN>PRODUCTS-->
+<!--HERE STARTS MAIN>TESTIMONIES-->
+
+        <h1 class="header2">¡Clientes satisfechos!</h1>
         <div class="clientes">
             <img src="./Images/Taza Sublimada.png" alt="Cliente 1 con su producto" class="cliente">
-            <p>La Ferreteria de Tachuela luciendo sus nuevas gorras sublimadas</p>
             <img src="./Images/Taza Sublimada.png" alt="Cliente 2 con su producto" class="cliente">
-            <p> La hinchada de Adev ya ha dejado lista su bandera</p>
-            <img src="./Images/Taza Sublimada.png" alt="Cliente 3 con su producto" class="cliente">
-            <p>¿Tarjetas de presentación? ¡Cómo no se me ocurrió!</p>
+            <img src="./Images/Taza Sublimada.png" alt="Cliente 3 con su producto" class="cliente"> 
             <img src="./Images/Taza Sublimada.png" alt="Cliente 4 con su producto" class="cliente">
-            <p>Nada mejor que un buen caffecito <!--emoji de ojos shy --></p>
         </div>
+
+        <div class="testimonios"> 
+        <p class="testimonio"> La hinchada de Adev ya ha dejado lista su bandera</p>
+        <p class="testimonio">Nada mejor que un buen caffecito <!--emoji de ojos shy --></p>
+        <p class="testimonio">¿Tarjetas de presentación? ¡Cómo no se me ocurrió!</p>
+        <p class="testimonio">La Ferreteria de Tachuela luciendo sus nuevas gorras sublimadas </p>
+    </div>
+
+    <!--HERE ENDS MAIN>TESTIMONIES-->
+
     <h1>¿No encontrás lo que estás buscando?</h1>
     <p>¡No dudes en contactarnos! Hacemos de tu imaginación una realidad <!--emoji guiñando ojo --></p>
     <h2>Tu propio diseño</h2>
@@ -63,8 +86,8 @@
         <input type="submit" value="Submit">
     </form>
     </main>
-    <footer>
-
+    <footer>n
+<!-- You should continue here adding link to personal websites ad a copyright disclaimer, a logo would be cool too.-->
     </footer>
 </body>
 </html>

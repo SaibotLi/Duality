@@ -1,0 +1,75 @@
+/*HERE STARTS HEADER + MAIN--->PRODUCTS*/
+
+.header-main {
+    background-color: #1F2937;
+}
+
+li {
+    display:flex; 
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    justify-content: flex-start;
+    margin-right: 50vw;
+}
+
+.header {
+    font: 48px bolder;
+    font-weight:bolder;
+    color: #F9FAF8;
+}
+
+.subheader, ul {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+/*HERE ENDS HEADER + MAIN--->PRODUCTS*/
+
+/*HERE STARTS MAIN---->TESTIMONIES*/
+
+.clientes, .testimonios{
+    display:flex;
+    justify-content:center;
+   
+}
+
+.testimonios {
+    padding-left: 150px;
+}
+
+.cliente .testimonio {
+    justify-content: space-between;
+}
+
+.cliente {
+    margin-right: 5rem;
+    margin-left: 5rem;
+    align-items: center;
+    border: solid blue 5px;    
+}
+
+.testimonio {
+margin-right: 50px;
+margin-left: 50px;
+text-align: center;
+font-size: 20px;
+}
+
+.header2 {
+    font-size: 36px;
+    font-weight:bolder;
+    color:#1F2937;
+    text-align: center;
+}
+/*HERE ENDS MAIN---->TESTIMONIES*/
