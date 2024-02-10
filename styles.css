@@ -4,9 +4,10 @@
 }
 
 .navbar {
+    white-space: nowrap;
     display:flex;
     justify-content: space-between;
-    padding:10px;
+    padding:10px 20px;
     }
 
     .navbar ul {
@@ -29,6 +30,7 @@
 
     .logo {
         margin-right:auto;
+        margin-left: 10vw;        
     }
 
 .header {
@@ -37,7 +39,7 @@
     color: #F9FAF8;
 }
 
-.subheader, ul {
+.subheader, .navbar ul {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -50,7 +52,11 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 0 20px;
+    box-sizing:border-box;
+    max-width: 100%;
 }
+
 .header2 {
     font-size: 36px;
     font-weight:bolder;
@@ -60,7 +66,7 @@
 
 .images {
     display: flex;
-    justify-content: space-around;
+    flex-wrap:wrap;
     align-items: center;
     margin: 0 auto; /* Center the container */
     max-width: 100%; /* Ensure the container doesn't exceed the width of its parent */
@@ -77,6 +83,7 @@
 
 .image {
     border: solid blue 5px;
+    border-radius:10px;
     width: 300px; /* Set a fixed width for the images */
     height: auto; /* Let the height adjust proportionally based on the width */
   
