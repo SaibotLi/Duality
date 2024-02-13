@@ -30,7 +30,7 @@
 
     .logo {
         margin-right:auto;
-        margin-left: 10vw;        
+        padding-left:6vw;
     }
 
 .header {
@@ -70,8 +70,7 @@
     align-items: center;
     margin: 0 auto; /* Center the container */
     max-width: 100%; /* Ensure the container doesn't exceed the width of its parent */
-    padding: 0 10px; /* Add padding to the container to create space between images */
- 
+    padding: 0 10px;
 }
 
 .image-container {
