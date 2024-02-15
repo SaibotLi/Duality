@@ -88,3 +88,23 @@
   
 }
 /*HERE ENDS MAIN---->TESTIMONIES*/
+
+.contact-container {
+    display:flex;
+    text-align: center;
+    background-color: #E5E7EB;
+    flex-direction:column;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+span {
+    font-size:26px;
+    font-weight:bold;
+    color:black;.
+}
